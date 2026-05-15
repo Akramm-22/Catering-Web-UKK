@@ -122,9 +122,9 @@
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
         @foreach([
-            ['name' => 'Chef Budi Santoso', 'role' => 'Head Chef & Co-Founder', 'img' => 'https://images.unsplash.com/photo-1607631568010-a87245c0daf8?w=300&q=80'],
-            ['name' => 'Siti Rahayu', 'role' => 'Culinary Director', 'img' => 'https://images.unsplash.com/photo-1607631568010-a87245c0daf8?w=300&q=80'],
-            ['name' => 'Ahmad Fauzi', 'role' => 'Operations Manager', 'img' => 'https://images.unsplash.com/photo-1607631568010-a87245c0daf8?w=300&q=80'],
+            ['name' => 'Chef Danish Athaya Natasurendra', 'role' => 'Head Chef & Co-Founder', 'img' => 'https://images.unsplash.com/photo-1607631568010-a87245c0daf8?w=300&q=80'],
+            ['name' => 'Muhammad Sayyid Husain Al-karim', 'role' => 'Culinary Director', 'img' => 'https://images.unsplash.com/photo-1607631568010-a87245c0daf8?w=300&q=80'],
+            ['name' => 'Qiageng Berke Jaisyurrohman', 'role' => 'Operations Manager', 'img' => 'https://images.unsplash.com/photo-1607631568010-a87245c0daf8?w=300&q=80'],
         ] as $member)
         <div class="text-center group">
             <div class="relative inline-block mb-4">
