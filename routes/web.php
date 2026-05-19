@@ -1,5 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\User\ProfileController;
 use App\Http\Controllers\Auth\SocialAuthController;
 use App\Http\Controllers\User\HomeController;
 use App\Http\Controllers\User\PackageController;
@@ -22,6 +23,14 @@ Route::get('/packages/{slug}', [PackageController::class, 'show'])->name('packag
 Route::get('/tentang-kami', function () {
     return view('about');
 })->name('about');
+
+// Profile routes
+Route::middleware(['auth'])->group(function () {
+    Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::patch('/profile/password', [ProfileController::class, 'updatePassword'])->name('profile.password');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+});
 
 // === OAUTH ===
 Route::get('/auth/{provider}', [SocialAuthController::class, 'redirect'])->name('social.login');
@@ -54,6 +63,9 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/track', [TrackingController::class, 'index'])->name('tracking.index');
     Route::get('/track/{receiptNumber}', [TrackingController::class, 'show'])->name('tracking.show');
 });
+
+    //Promo Code
+Route::resource('promos', \App\Http\Controllers\Admin\PromoController::class);
 
 // === ADMIN ROUTES ===
 Route::middleware(['auth', 'admin'])->prefix('admin')->name('admin.')->group(function () {
