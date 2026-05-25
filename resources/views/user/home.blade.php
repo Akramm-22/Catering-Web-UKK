@@ -333,34 +333,34 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div class="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all">
                 <div style="color:#f59e0b;" class="mb-4 text-lg">★★★★★</div>
-                <p class="text-gray-700 text-sm leading-relaxed mb-5 italic">"Luar biasa! Prasmanan untuk acara pernikahan 500 orang berjalan sempurna. Tepat waktu dan makanannya enak sekali."</p>
+                <p class="text-gray-700 text-sm leading-relaxed mb-5 italic">"Sangat puas dengan layanan prasmanannya untuk gathering kantor. Makanannya premium, plating-nya rapi, dan timnya sangat profesional."</p>
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 bg-green-100 text-green-700 rounded-full flex items-center justify-center font-bold text-sm">BP</div>
+                    <div class="w-10 h-10 bg-green-100 text-green-700 rounded-full flex items-center justify-center font-bold text-sm">AS</div>
                     <div>
-                        <p class="font-bold text-gray-900 text-sm">Bambang P.</p>
-                        <p class="text-gray-400 text-xs">Event Organizer</p>
+                        <p class="font-bold text-gray-900 text-sm">Agus Saputra</p>
+                        <p class="text-gray-400 text-xs">Pengusaha</p>
                     </div>
                 </div>
             </div>
             <div class="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all">
                 <div style="color:#f59e0b;" class="mb-4 text-lg">★★★★★</div>
-                <p class="text-gray-700 text-sm leading-relaxed mb-5 italic">"Sudah 3 bulan langganan nasi kotak untuk makan siang kantor. Konsisten enak dan harga sangat terjangkau!"</p>
+                <p class="text-gray-700 text-sm leading-relaxed mb-5 italic">"Sudah jadi langganan tetap untuk acara rutin di rumah sakit. Rasanya konsisten enak, bersih, dan pengirimannya selalu on-time."</p>
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 bg-amber-100 text-amber-700 rounded-full flex items-center justify-center font-bold text-sm">SR</div>
+                    <div class="w-10 h-10 bg-amber-100 text-amber-700 rounded-full flex items-center justify-center font-bold text-sm">BS</div>
                     <div>
-                        <p class="font-bold text-gray-900 text-sm">Siti R.</p>
-                        <p class="text-gray-400 text-xs">HR Manager</p>
+                        <p class="font-bold text-gray-900 text-sm">Budi Santoso</p>
+                        <p class="text-gray-400 text-xs">Dokter</p>
                     </div>
                 </div>
             </div>
             <div class="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md transition-all">
                 <div style="color:#f59e0b;" class="mb-4 text-lg">★★★★★</div>
-                <p class="text-gray-700 text-sm leading-relaxed mb-5 italic">"Tumpeng ultah anak saya cantik banget! Tim sangat profesional dan responsif. Highly recommended!"</p>
+                <p class="text-gray-700 text-sm leading-relaxed mb-5 italic">"Katering terbaik untuk acara kedinasan. Menu nusantaranya sangat otentik dan disukai oleh semua rekan kerja di kantor."</p>
                 <div class="flex items-center gap-3">
-                    <div class="w-10 h-10 bg-purple-100 text-purple-700 rounded-full flex items-center justify-center font-bold text-sm">DS</div>
+                    <div class="w-10 h-10 bg-purple-100 text-purple-700 rounded-full flex items-center justify-center font-bold text-sm">SL</div>
                     <div>
-                        <p class="font-bold text-gray-900 text-sm">Dian S.</p>
-                        <p class="text-gray-400 text-xs">Ibu Rumah Tangga</p>
+                        <p class="font-bold text-gray-900 text-sm">Sari Lestari</p>
+                        <p class="text-gray-400 text-xs">Pegawai Negeri Sipil</p>
                     </div>
                 </div>
             </div>
